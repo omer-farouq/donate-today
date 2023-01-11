@@ -55,7 +55,7 @@
 }
 .donate-description{
     color: #aca9a9;
-    padding: 0 200px;  
+    padding: 0 400px;  
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -97,5 +97,154 @@ hr{
 
 /* donate plan styles */
 .donate-section{
+    text-align: center;
     margin-top: 200px;
+}
+.donate-plan{
+    display: flex;
+    gap: 10px;
+    padding: 0 250px;
+}
+.donate-plan img{
+    margin-bottom: 10px;
+    
+}
+.food{
+    background-color: #EDF5F6;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.shelter{
+    background-color: #FFEEEE;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.education{
+    background-color: #FFF4D6;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.plan-description{
+    color: #aca9a9;
+}
+
+/* donate-people-section styles */
+
+.donate-people-section{
+    display: flex;
+    gap: 30px;
+    margin: 200px 250px;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.donation-img{
+    margin: auto;
+    width: 725px;
+    height: 225px;
+}
+.donation-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.people-description{
+    margin: 30px 0;
+    
+    font-weight: 400;
+    color: #b3aeae; 
+}
+.donation-img2{
+    margin: auto;
+    width: 725px;
+    height: 225px;
+}
+.donation-img2 img{
+    height: 100%;
+    width: 100%;
+}
+.donate-people-section2{
+    display: flex;
+    gap: 30px;
+    margin: 200px 250px;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.people-description2{
+    margin: 30px 0;
+    
+    font-weight: 400;
+    color: #b3aeae; 
+}
+
+/* update from styles */
+.updates-section{
+    text-align: center;
+
+}
+.updates-title{
+    font-size: 50px;
+}
+.update-from{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #FFF4D6;
+    margin: 0 250px;
+    
+}
+.form-box{
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background: #AA9F9F;
+    
+}
+.form-box input{
+    font-size: 20px;
+    color: #AA9F9F;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background: #AA9F9F;
+    
+}
+.form-box button{
+    font-size: 20px;
+    border-radius: 5px;
+    color: #AA9F9F;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    background: #FF5959;
+    font-weight: 800;
+    cursor: pointer;
+    transition: .3s;
+    
+}
+
+.updates-description{
+    color: #aca9a9;
+    padding: 0 400px;  
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.email{
+    background-color: #D9D9D9;
+    color: #AA9F9F;
+    border: 0;
+    padding: 20px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    
 }
