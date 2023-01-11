@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/* header section styles */
+.header{
+    background-image: url("../images/donation0.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    
+}
+.header-section{
+    padding: 200px 100px ;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+   
+
+}
+.section-title{
+    color: #ffffff;
+    font-size: 80px;
+    margin-bottom: 20px;
+    
+}
+.section-description{
+    font-size: 20px;
+    color: #220aaa;
+    margin-bottom: 30px;
+    color: #c4bbbb;
+    
+}
+.btn-primary{
+    background-color: #FF5959;
+    color: white;
+    border: 0;
+    padding: 20px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+/* donate price styles */
+.donate-section{
+    text-align: center;
+}
+.donate-title{
+    margin-top: 100px;
+    padding: 0 200px;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.donate-description{
+    color: #aca9a9;
+    padding: 0 200px;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.donate-price{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+
+}
+.price{
+    padding: 30px;
+    border: none;
+    font-size: 30px;
+    font-weight: 700px;
+    background-color:aliceblue;
+    color:#aca9a9;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: 0 ;
+}
+.price:hover{
+    border: 1px solid #FF5959;
+    color: #FF5959;
+}
+.other-amount-section{
+    padding: 0 200px;
+}
+.other-amount{
+    margin-bottom: 20px;
+    color: #aca9a9;
+    
+}
+hr{
+    color: #aca9a9;
+    margin-bottom: 20px;
+    padding: 0 200px;
+}
+
+/* donate plan styles */
+.donate-section{
+    margin-top: 200px;
+}
